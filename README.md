@@ -31,9 +31,13 @@ There are two ways to use the software:
 
 ## Option 1: Run using prebuilt executables
 
-1. Download the executable file (.exe for Windows and .dmg for macOS) from the **Releases** section with the Latest tag.
+1. Download the executable file (`.exe` for Windows and `.dmg` for macOS) from the **Releases** section with the Latest tag.
 
-2. Install the executable file.
+2. On Windows systems, installation can be completed by double-clicking the `.exe` file and following the on-screen prompts. For Mac OS, the `.dmg` is a Mac OS disk image file. When opened, it asks for accepting the license agreement, then mounts itself as an external drive and opens a Finder window, that looks like this:
+
+   <img src="assets/mac_dmg_distro.png" />
+
+   You can run the app by double-clicking on the icon, or copying it to your Applications folder by dragging the icon over "Applications". Once ConeDetection is in your Applications folder, you can eject the *ConeDetection* disk, and delete the `.dmg` file.
 
 3. Once installed, double click on the software icon to open the software.
 
@@ -47,9 +51,9 @@ There are two ways to use the software:
 
    <img src="assets/ConeDetectionWindowDetect3.png" width="760" height="642" />
 
-6. The **Mark**, **Erase S**, **Erase M** and **Undo** button allows to add, erase single/multiple and undo past operations.
+6. The **Mark**, **Erase S**, **Erase M** and **Undo** button allows to add annotations, erase single/multiple annotations and undo past operation.
 
-7. The **Save** button saves the .CSV file with the (x,y) coordinates of the cone centroids in the location of the input image.
+7. The **Save** button saves the `.csv` file with the (x,y) coordinates of the cone centroids present in the input image.
 
 8. The **Help** button provides more documentation about the software features including a table of keyboard shortcuts for common actions.
 
